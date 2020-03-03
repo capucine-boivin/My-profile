@@ -1,0 +1,166 @@
+body{
+	background-color: pink;
+	background-repeat: no-repeat;
+	font-family: 'Nunito';
+	font-size: 25px;
+	line-height: 1,6;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+p{
+	color: pink;
+}
+h1{
+	color: white;
+	font-weight: 900;
+}
+
+h2{
+	color: white;
+	letter-spacing: 10px;
+	font-size: 30px;
+	font-family:Fjalla One;
+}
+
+h3{
+	color: white;
+}
+
+.header{
+	width: 100%;
+	margin-top: 0;
+	margin-left: -10px;
+	margin-right: 0;
+	height: 50px;
+	line-height: 50px;
+	position: fixed;
+	top: 0;
+	color: white;
+	background-color: #fa697c;
+	opacity: 0.5;
+	position: fixed;
+
+}
+
+#text-header{
+	color: white;
+
+}
+
+#header-logo{
+	float: right;
+	margin-right: 20px;
+}
+.fab{
+	float: right;
+	margin-right: 20px;
+	margin-top: 13px;
+}
+
+.banner{
+	font-family: 'Inconsolata';
+	background-image: url(images/banner_2.jpg);
+	background-repeat: no-repeat;
+	height: 600px;
+	margin-top: -9px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+#text-side{
+padding-left: 170px;
+padding-top: 200px;
+}
+
+.image-banner{
+	height: 200px;
+	margin-left: 800px;
+	margin-top: -250px;
+}
+
+ 
+
+.music-block{
+	height:200px;
+	border-radius: 20px;
+	background-image: url(images/banner.jpg);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-right: -10px;
+}
+
+.btn-green{
+	background-color: #21bf73;
+	color: black;
+	border-radius: 4px;
+	padding: 15px 20px;
+	font-size: 15px;
+}
+
+
+.block-black{
+	background-color: black;
+	margin-top: -24px;
+	margin-left: -10px;
+	text-align: center;
+	height: 150px;
+	padding-top: 15px;
+	margin-right: -10px;
+}
+
+#background-black{
+	background: #3A3A3A;
+margin-left: -10px;
+margin-right: -10px;
+}
+
+#block-bottom{
+	padding-bottom: 20px;
+}
+
+.list-horizontal{
+background-image: url(images/cuisine.png);
+display: flex;
+height: 540px;
+margin-left: -30px;
+justify-content: space-around;
+margin-right: -10px;
+}
+
+.list-image{
+	height: 1854px;
+	margin-left: -10px;
+	background-image: url(images/travel.jpg);
+	vertical-align: middle;
+	margin-right: -10px;
+}
+
+.li-spacer{
+	font-size: 100px;
+	font-family: 'Amatic SC';
+	color: black;
+	height: 634px;
+	margin-bottom: 20px;
+	margin-top: -25px;
+}
+.text-centered{
+	text-align: center;
+}
+.img-bigcircle{
+	border-radius: 50%;
+	block-size: 400px;
+	margin: auto;
+}
+
+.img-circle{
+	block-size: 180px;
+	border-radius: 50%;
+	margin: auto;
+}
+
+#float-right{
+	float: center;
+}
