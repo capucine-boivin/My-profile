@@ -71,7 +71,7 @@ h3{
 	margin-right: -10px;
 }
 
-#text-side{
+#text-left{
 padding-left: 170px;
 padding-top: 200px;
 }
@@ -84,14 +84,13 @@ padding-top: 200px;
 
  
 
-.music-block{
+.block-artist{
 	height:200px;
 	border-radius: 20px;
 	background-image: url(images/banner.jpg);
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	margin-right: -10px;
 }
 
 .btn-green{
