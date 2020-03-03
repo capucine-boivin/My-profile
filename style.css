@@ -59,10 +59,12 @@ h3{
 	margin-top: 13px;
 }
 
+
 .banner{
 	font-family: 'Inconsolata';
 	background-image: url(images/banner_2.jpg);
 	background-repeat: no-repeat;
+	width: auto;
 	height: 600px;
 	margin-top: -9px;
 	margin-left: -10px;
@@ -122,7 +124,8 @@ margin-right: -10px;
 }
 
 .list-horizontal{
-background-image: url(images/cuisine.png);
+	background-repeat: no-repeat;
+background-image: url(images/cuisine.gif);
 display: flex;
 height: 540px;
 margin-left: -30px;
@@ -152,7 +155,9 @@ margin-right: -10px;
 .img-bigcircle{
 	border-radius: 50%;
 	block-size: 400px;
-	margin: auto;
+	margin-top:-250px;
+	padding-right: 50px;
+	float: right;
 }
 
 .img-circle{
@@ -162,5 +167,4 @@ margin-right: -10px;
 }
 
 #float-right{
-	float: center;
 }
