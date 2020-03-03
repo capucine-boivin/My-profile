@@ -86,6 +86,7 @@ padding-top: 200px;
 
 .block-artist{
 	height:200px;
+	width: auto;
 	border-radius: 20px;
 	background-image: url(images/banner.jpg);
 	display: flex;
@@ -124,7 +125,7 @@ margin-right: -10px;
 
 .list-horizontal{
 	background-repeat: no-repeat;
-background-image: url(images/cuisine.gif);
+background-image: url(images/cuisine.jpg);
 display: flex;
 height: 540px;
 margin-left: -30px;
