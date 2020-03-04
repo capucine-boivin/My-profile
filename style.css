@@ -30,6 +30,7 @@ h3{
 
 @media (max-width: 740px){
 	.banner{
+		font-family: Arial;
 		width: auto;
 	}
 
