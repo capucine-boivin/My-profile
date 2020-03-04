@@ -28,7 +28,7 @@ h3{
 	color: white;
 }
 
-@media (max-width: 740px;){
+@media (max-width: 740px){
 	.banner{
 		width: auto;
 	}
@@ -36,6 +36,10 @@ h3{
 	#text-left{
 		padding-left: 60px;
 		padding-top: 70px;
+	}
+
+	.img-bigcircle{
+		block-size:20px;
 	}
 
 }
