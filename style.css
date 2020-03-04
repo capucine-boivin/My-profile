@@ -28,7 +28,7 @@ h3{
 	color: white;
 }
 
-@media (max-width: 540px;){
+@media (max-width: 740px;){
 	.banner{
 		width: auto;
 	}
