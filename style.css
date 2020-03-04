@@ -40,23 +40,15 @@ h3{
 	color: white;
 	background-color: #fa697c;
 	opacity: 0.5;
-	position: fixed;
-
 }
 
 #text-header{
 	color: white;
-
 }
 
-#header-logo{
+.header-icon{
 	float: right;
 	margin-right: 20px;
-}
-.fab{
-	float: right;
-	margin-right: 20px;
-	margin-top: 13px;
 }
 
 
@@ -87,7 +79,6 @@ padding-top: 200px;
 .block-artist{
 	height:200px;
 	width: auto;
-	border-radius: 20px;
 	background-image: url(images/banner.jpg);
 	display: flex;
 	align-items: center;
@@ -125,7 +116,8 @@ margin-right: -10px;
 
 .list-horizontal{
 	background-repeat: no-repeat;
-background-image: url(images/cuisine.jpg);
+background-image: url(images/tiramisu.jpg), url(images/nouilles.jpg), url(images/tajine.jpg);
+background-position: left, center, right;
 display: flex;
 height: 540px;
 margin-left: -30px;
@@ -167,4 +159,9 @@ margin-right: -10px;
 }
 
 #float-right{
+}
+
+.logo{
+	margin-right: 600px;
+
 }
