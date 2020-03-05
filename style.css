@@ -24,27 +24,24 @@ h2{
 	font-family:Fjalla One;
 }
 
-h3{
+h3{ 
 	color: white;
 }
 
-@media (max-width: 740px){
-	.banner{
-		font-family: Arial;
-		width: auto;
+
+
+@media(max-width: 700px){
+	.list-horizontal{
+		background-position: 0% 33%;
 	}
 
-	#text-left{
-		padding-left: 60px;
-		padding-top: 70px;
+	.banner{
+		background-size: 500px 500px;
 	}
 
 	.img-bigcircle{
-		block-size:20px;
-	}
+		width: 19px; }
 
-}
-	
 }
 
 .header{
