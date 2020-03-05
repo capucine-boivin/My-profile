@@ -32,10 +32,9 @@ h3{
 
 @media(max-width: 700px){
 	.list-horizontal{
-
+		background-position: top, center, bottom;
 		background-image: url(images/tiramisu.jpg), url(images/nouilles.jpg), url(images/tajine.jpg);
-		max-height: 1000px;
-		vertical-align: middle;
+
 	}
 
 	#try{
@@ -167,13 +166,15 @@ margin-right: -10px;
 }
 
 .list-horizontal{
-	background-repeat: no-repeat;
+background-repeat: no-repeat;
 background-image: url(images/tiramisu.jpg), url(images/nouilles.jpg), url(images/tajine.jpg);
-background-position: left, center, right;
+background-position: top, center, bottom;
 display: flex;
-height: 540px;
+flex-direction: column;
+height: 1540px;
 margin-left: -30px;
 justify-content: space-around;
+align-items: center;
 margin-right: -10px;
 }
 
@@ -200,8 +201,8 @@ margin-right: -10px;
 	border-radius: 50%;
 	block-size: 400px;
 	margin-top:-250px;
-	margin-right: 30%
-	padding-right: 50px;
+	margin-right: 50%
+	padding-right: 60px;
 	float: right;
 }
 
