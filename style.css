@@ -32,7 +32,9 @@ h3{
 
 @media(max-width: 700px){
 	.list-horizontal{
-		background-position: 0% 33%;
+		background-position: top left, center left, bottom left;
+		height: 1000px;
+		vertical-align: middle;
 	}
 
 	#text-left{
@@ -61,13 +63,19 @@ h3{
 	}
 
 	.block-artist{
-		background-size: 100%;
-		margin-left: -300px;
+		background-position: 30% 0%;
 	}
 
-	.btn-green{
-
+	.img-circle{
+		max-height: 100px;
+		max-width: 100px;
 	}
+
+	.list-image{
+		background-position: top right;
+		
+	}
+
 
 }
 
