@@ -32,20 +32,19 @@ h3{
 
 @media(max-width: 700px){
 	.list-horizontal{
-		background-position: top left, center left, bottom left;
-		height: 1000px;
+
+		background-image: url(images/tiramisu.jpg), url(images/nouilles.jpg), url(images/tajine.jpg);
+		max-height: 1000px;
 		vertical-align: middle;
 	}
 
-	#text-left{
-		padding-left: 85px;
+	#try{
 		padding-top: 100px;
-		margin-left: -100px;
-		margin-top: -100px;
-
 	}
-	.media-mini{
-		max-width:;
+
+	#text-left{
+		margin-left: -140px;
+		margin-top: -280px;
 
 	}
 
@@ -55,17 +54,21 @@ h3{
 	} 
 
 	.img-bigcircle{
-		margin-left: auto;
-		margin-right: auto;
-		max-width: 150px; 
-		max-height: 150px;
-		height: auto;
+		max-width: 600px; 
+		max-height: 200px;
+		height: 100px;
+
 	}
+#try2{
+	margin-right: auto;
+	margin-left: auto;
+}
+
 
 	.block-artist{
 		background-position: 30% 0%;
 		flex: right
-		
+
 	}
 
 	.img-circle{
@@ -76,6 +79,7 @@ h3{
 	.list-image{
 		background-position: top right;
 		vertical-align: middle;
+
 	}
 
 
@@ -97,11 +101,6 @@ h3{
 
 #text-header{
 	color: white;
-}
-
-.header-icon{
-	float: right;
-	margin-right: 20px;
 }
 
 
@@ -201,6 +200,7 @@ margin-right: -10px;
 	border-radius: 50%;
 	block-size: 400px;
 	margin-top:-250px;
+	margin-right: 30%
 	padding-right: 50px;
 	float: right;
 }
@@ -208,13 +208,17 @@ margin-right: -10px;
 .img-circle{
 	block-size: 180px;
 	border-radius: 50%;
-	margin: auto;
+	float: right;
 }
 
-#float-right{
-}
+
 
 .logo{
 	margin-right: 600px;
 
+}
+
+
+.fab{
+	color: black;
 }
