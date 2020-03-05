@@ -64,6 +64,8 @@ h3{
 
 	.block-artist{
 		background-position: 30% 0%;
+		flex: right
+		
 	}
 
 	.img-circle{
