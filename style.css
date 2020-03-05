@@ -62,6 +62,7 @@ h3{
 
 	.block-artist{
 		background-size: 100%;
+		margin-left: -300px;
 	}
 
 	.btn-green{
