@@ -61,7 +61,11 @@ h3{
 	}
 
 	.block-artist{
-		
+		background-size: 100%;
+	}
+
+	.btn-green{
+
 	}
 
 }
@@ -125,7 +129,7 @@ padding-top: 200px;
 
 .btn-green{
 	background-color: #21bf73;
-	color: black;
+	color: black;	
 	border-radius: 4px;
 	padding: 15px 20px;
 	font-size: 15px;
