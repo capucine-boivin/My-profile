@@ -1,5 +1,5 @@
 body{
-	background-color: pink;
+	background-color: ;
 	background-repeat: no-repeat;
 	font-family: 'Nunito';
 	font-size: 25px;
@@ -16,72 +16,14 @@ h1{
 	color: white;
 	font-weight: 900;
 }
-
 h2{
 	color: white;
 	letter-spacing: 10px;
 	font-size: 30px;
 	font-family:Fjalla One;
 }
-
 h3{ 
 	color: white;
-}
-
-
-
-@media(max-width: 700px){
-	.list-horizontal{
-		background-position: top, center, bottom;
-		background-image: url(images/tiramisu.jpg), url(images/nouilles.jpg), url(images/tajine.jpg);
-
-	}
-
-	#try{
-		padding-top: 100px;
-	}
-
-	#text-left{
-		margin-left: -140px;
-		margin-top: -280px;
-
-	}
-
-	.banner{
-		background-size: 400%; 
-		font-size: 100%;
-	} 
-
-	.img-bigcircle{
-		max-width: 500px; 
-		max-height: 150px;
-		height: 100px;
-
-	}
-#try2{
-	margin-right: auto;
-	margin-left: auto;
-}
-
-
-	.block-artist{
-		background-position: 30% 0%;
-		flex: right
-
-	}
-
-	.img-circle{
-		max-height: 100px;
-		max-width: 100px;
-	}
-
-	.list-image{
-		background-position: top right;
-		vertical-align: middle;
-
-	}
-
-
 }
 
 .header{
@@ -97,7 +39,6 @@ h3{
 	background-color: #fa697c;
 	opacity: 0.5;
 }
-
 #text-header{
 	color: white;
 }
@@ -105,7 +46,7 @@ h3{
 
 .banner{
 	font-family: 'Inconsolata';
-	background-image: url(images/banner_2.jpg);
+	background-image: url(images/banner.jpg);
 	background-repeat: no-repeat;
 	width: auto;
 	height: 600px;
@@ -113,37 +54,23 @@ h3{
 	margin-left: -10px;
 	margin-right: -10px;
 }
-
 #text-left{
 padding-left: 170px;
 padding-top: 200px;
 }
-
 .image-banner{
 	height: 200px;
 	margin-left: 800px;
 	margin-top: -250px;
 }
-
- 
-
-.block-artist{
-	height:200px;
-	width: auto;
-	background-image: url(images/banner.jpg);
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
+.img-bigcircle{
+	border-radius: 50%;
+	block-size: 400px;
+	margin-top:-250px;
+	margin-right: 50%
+	padding-right: 60px;
+	float: right;
 }
-
-.btn-green{
-	background-color: #21bf73;
-	color: black;	
-	border-radius: 4px;
-	padding: 15px 20px;
-	font-size: 15px;
-}
-
 
 .block-black{
 	background-color: black;
@@ -155,15 +82,36 @@ padding-top: 200px;
 	margin-right: -10px;
 }
 
+
+.card-artist{
+	height:200px;
+	width: auto;
+	background-image: url(images/music.jpg);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.img-circle{
+	block-size: 180px;
+	border-radius: 50%;
+	float: right;
+}
+.btn-green{
+	background-color: #21bf73;
+	color: black;	
+	border-radius: 4px;
+	padding: 15px 20px;
+	font-size: 15px;
+}
 #background-black{
 	background: #3A3A3A;
 margin-left: -10px;
 margin-right: -10px;
 }
-
 #block-bottom{
 	padding-bottom: 20px;
 }
+
 
 .list-horizontal{
 background-repeat: no-repeat;
@@ -185,7 +133,6 @@ margin-right: -10px;
 	vertical-align: middle;
 	margin-right: -10px;
 }
-
 .li-spacer{
 	font-size: 100px;
 	font-family: 'Amatic SC';
@@ -196,30 +143,66 @@ margin-right: -10px;
 }
 .text-centered{
 	text-align: center;
+	color: black;
 }
-.img-bigcircle{
-	border-radius: 50%;
-	block-size: 400px;
-	margin-top:-250px;
-	margin-right: 50%
-	padding-right: 60px;
-	float: right;
-}
-
-.img-circle{
-	block-size: 180px;
-	border-radius: 50%;
-	float: right;
-}
-
-
-
-.logo{
-	margin-right: 600px;
-
-}
-
 
 .fab{
 	color: black;
+}
+
+#text-pink{
+	color: pink;
+}
+
+
+@media(max-width: 700px){
+	.list-horizontal{
+		background-position: top, center, bottom;
+		background-image: url(images/tiramisu.jpg), url(images/nouilles.jpg), url(images/tajine.jpg);
+
+	}
+
+	#text-top{
+		padding-top: 100px;
+	}
+
+	#text-left{
+		margin-left: -140px;
+		margin-top: -280px;
+
+	}
+
+	.banner{
+		background-size: 400%; 
+		font-size: 100%;
+	} 
+
+	.img-bigcircle{
+		max-width: 500px; 
+		max-height: 150px;
+		height: 100px;
+
+	}
+
+	.card-artist{
+		background-position: 30% 0%;
+		flex: right
+
+	}
+
+	.img-circle{
+		max-height: 100px;
+		max-width: 100px;
+	}
+
+	.list-image{
+		background-position: top right;
+		vertical-align: middle;
+
+	}
+
+.li-spacer{
+		text-align: center;
+	}
+
 }
