@@ -1,5 +1,5 @@
 body{
-	background-color: ;
+	background-color: #f3dfe3 ;
 	background-repeat: no-repeat;
 	font-family: 'Nunito';
 	font-size: 25px;
@@ -35,14 +35,10 @@ h3{
 	line-height: 50px;
 	position: fixed;
 	top: 0;
-	color: white;
+	color: black;
 	background-color: #fa697c;
 	opacity: 0.5;
 }
-#text-header{
-	color: white;
-}
-
 
 .banner{
 	font-family: 'Inconsolata';
@@ -154,16 +150,9 @@ margin-right: -10px;
 	color: pink;
 }
 
-
-@media(max-width: 700px){
-	.list-horizontal{
-		background-position: top, center, bottom;
-		background-image: url(images/tiramisu.jpg), url(images/nouilles.jpg), url(images/tajine.jpg);
-
-	}
-
+@media(max-width: 960px){
 	#text-top{
-		padding-top: 100px;
+		padding-top: 150px;
 	}
 
 	#text-left{
@@ -171,23 +160,30 @@ margin-right: -10px;
 		margin-top: -280px;
 
 	}
+	.img-bigcircle{
+		height: 180px;
+
+	}
+}
+
+
+@media(max-width: 720px){
+	#text-top{
+		padding-top: 160px;
+	}
 
 	.banner{
 		background-size: 400%; 
-		font-size: 100%;
+		font-size: 90%;
 	} 
 
 	.img-bigcircle{
-		max-width: 500px; 
-		max-height: 150px;
-		height: 100px;
-
+		height: 150px;
 	}
 
 	.card-artist{
 		background-position: 30% 0%;
 		flex: right
-
 	}
 
 	.img-circle{
@@ -204,5 +200,26 @@ margin-right: -10px;
 .li-spacer{
 		text-align: center;
 	}
+}
 
+@media (max-width: 540px){
+
+		#text-top{
+		padding-top: 100px;
+	}
+
+	#text-left{
+		margin-left: -140px;
+		margin-top: -280px;
+
+	}
+		.banner{
+		background-size: 400%; 
+		font-size: 100%;
+	} 
+
+		.img-bigcircle{
+		height: 150px;
+
+	}
 }
